@@ -14,6 +14,9 @@
     <link href="/css/nucleo-svg.css" rel="stylesheet" />
     <!-- CSS Files -->
     <link id="pagestyle" href="/css/argon-dashboard.css?v=2.0.0" rel="stylesheet" />
+
+    @routes
+
     <script src="{{ mix('/js/app.js') }}" defer></script>
   </head>
   <body class="g-sidenav-show   bg-gray-100">

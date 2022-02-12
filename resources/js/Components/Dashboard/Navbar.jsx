@@ -31,11 +31,11 @@ export default function Navbar(props) {
                                         <li><a className="dropdown-item" href="#">Profile</a></li>
                                         <li><a className="dropdown-item" href="#">Setting</a></li>
                                         <li><hr className="dropdown-divider" /></li>
-                                        <li><Link className="dropdown-item" as='button' method='post' href='/logout'>Logout</Link></li>
+                                        <li><Link className="dropdown-item" as='button' method='post' href={route('logout')}>Logout</Link></li>
                                     </ul>
                                 </li> 
                             : <li className="nav-item d-flex align-items-center">
-                                <Link href="/login" className="nav-link text-white font-weight-bold px-0">
+                                <Link href={route('login')} className="nav-link text-white font-weight-bold px-0">
                                     <i className="fa fa-user me-sm-1" />
                                     <span className="d-sm-inline d-none">Sign In</span>
                                 </Link>

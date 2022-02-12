@@ -11,7 +11,7 @@ export default function Login({ errors }) {
 
     const submitHandler = (e) => {
         e.preventDefault()
-        post('/login', data);
+        post(route('login'), data);
     }
     return (        
         <>
@@ -47,7 +47,7 @@ export default function Login({ errors }) {
                                 <div className="card-footer text-center pt-0 px-lg-2 px-1">
                                     <p className="mb-4 text-sm mx-auto">
                                         Don't have an account?
-                                        <Link href="/register" className="text-primary text-gradient font-weight-bold">Sign up</Link>
+                                        <Link href={route('register')} className="text-primary text-gradient font-weight-bold">Sign up</Link>
                                     </p>
                                 </div>
                             </div>
