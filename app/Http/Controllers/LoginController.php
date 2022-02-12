@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
+use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
@@ -29,6 +29,14 @@ class LoginController extends Controller
 
         throw ValidationException::withMessages([
             'email' => 'The provide credentials does not match our record.',
+        ]);
+    }
+
+    public function destroy() {
+        Auth::logout();
+
+        return redirect('/')->with([
+            'type' => 'success', 'message' => 'You are now logout.',
         ]);
     }
 }

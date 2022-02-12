@@ -405,7 +405,7 @@ export default function Dashboard() {
                     </div>
                     </div>
                 </footer>
-                </div>
+            </div>
         </>
     )
 }

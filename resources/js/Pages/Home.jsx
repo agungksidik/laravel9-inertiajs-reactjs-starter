@@ -4,8 +4,12 @@ import Guest from '../Layouts/Guest'
 export default function Home() {
   return (
     <>
-        <div className="container py-4">
-          test123  123 3456
+        <div className='container'>
+          <div className="card">
+            <div className="card-body">
+              Your home page
+            </div>
+          </div>
         </div>
     </>
   )

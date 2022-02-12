@@ -1,5 +1,5 @@
 import { Head, usePage } from '@inertiajs/inertia-react'
-import React, { useEffect } from 'react'
+import React from 'react'
 import toast, { Toaster } from 'react-hot-toast'
 import Navbar from '../Components/Dashboard/Navbar'
 import Sidebar from '../Components/Dashboard/Sidebar'
@@ -7,9 +7,7 @@ import Sidebar from '../Components/Dashboard/Sidebar'
 export default function Base({children, title}) {
     const { flash } = usePage().props;
     
-    useEffect(() => {
-        flash.type && toast[flash.type](flash.message)
-    }, [])
+    flash.type && toast[flash.type](flash.message)
 
     return (
         <div className="g-sidenav-show   bg-gray-100">
