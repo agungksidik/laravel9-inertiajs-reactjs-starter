@@ -237,10 +237,6 @@ Project Link: [https://github.com/agungksidik/laravel9-inertia-react-starter](ht
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -259,4 +255,4 @@ Project Link: [https://github.com/agungksidik/laravel9-inertia-react-starter](ht
 [license-url]: https://github.com/agungksidik/laravel9-inertia-react-starter/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot1.png
+[product-screenshot]: https://raw.githubusercontent.com/agungksidik/laravel9-inertia-react-starter/master/images/screenshoot1.png
