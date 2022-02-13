@@ -85,8 +85,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<p align="center">
 [![Product Name Screen Shot][product-screenshot]](https://www.facebook.com/agungsidikmuhamad/)
-
+</p>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -184,6 +185,7 @@ install Composer & NodeJs and update to latest version
 ## Roadmap
 
 - [x] Integrations Argon Dashboard HTML template to ReactJs
+- [x] Multiple layout (Guest, Base, Auth)
 - [x] Authentication
     - [x] Sign in
     - [ ] Register 
@@ -254,5 +256,5 @@ Project Link: [https://github.com/agungksidik/laravel9-inertia-react-starter](ht
 [license-shield]: https://img.shields.io/github/license/agungksidik/laravel9-inertia-react-starter.svg?style=for-the-badge
 [license-url]: https://github.com/agungksidik/laravel9-inertia-react-starter/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/agung-sidik-muhamad-5b427620b/
 [product-screenshot]: https://raw.githubusercontent.com/agungksidik/laravel9-inertia-react-starter/master/images/screenshoot1.png
