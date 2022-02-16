@@ -12,7 +12,7 @@ export default function Guest({children, title}) {
     <div>
         <Head title={ title } />
         <Navbar/>
-        <Toaster position='bottom-right'/>
+        <Toaster position='top-center' duration='4000'/>
         {children}
     </div>
   )

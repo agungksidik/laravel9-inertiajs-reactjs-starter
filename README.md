@@ -86,13 +86,10 @@
 ## About The Project
 
 <p align="center">
-[![Product Name Screen Shot][product-screenshot]](https://www.facebook.com/agungsidikmuhamad/)
+  <img src="https://raw.githubusercontent.com/agungksidik/laravel9-inertia-react-starter/master/images/screenshoot1.png" />
 </p>
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Built With
 
@@ -188,7 +185,7 @@ install Composer & NodeJs and update to latest version
 - [x] Multiple layout (Guest, Base, Auth)
 - [x] Authentication
     - [x] Sign in
-    - [ ] Register 
+    - [x] Register 
     - [ ] Google Sign in 
 - [ ] Roles and Permissions
 
