@@ -146,7 +146,12 @@ install Composer & NodeJs and update to latest version
    ```sh
    php artisan migrate --seed
    ```
-
+6. Google Sign In (Insert to your .env)
+   ```sh
+    GOOGLE_CLIENT_ID='your_client_id'
+    GOOGLE_CLIENT_SECRET='your_client_secret'
+    GOOGLE_REDIRECT='your_callback_url'
+   ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -186,7 +191,7 @@ install Composer & NodeJs and update to latest version
 - [x] Authentication
     - [x] Sign in
     - [x] Register 
-    - [ ] Google Sign in 
+    - [x] Google Sign in 
 - [ ] Roles and Permissions
 
 See the [open issues](https://github.com/agungksidik/laravel9-inertia-react-starter/issues) for a full list of proposed features (and known issues).
@@ -225,7 +230,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/agungksidik) - agungksidik@gmail.com
+Agung Sidik Muhamad - [@agungksidik](https://twitter.com/agungksidik) - agungksidik@gmail.com
 
 Project Link: [https://github.com/agungksidik/laravel9-inertia-react-starter](https://github.com/agungksidik/laravel9-inertia-react-starter)
 

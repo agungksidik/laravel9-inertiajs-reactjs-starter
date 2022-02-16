@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\ValidationException;
 
@@ -24,10 +25,13 @@ class RegisterController extends Controller
 
         if($validated) {
             $validated['password'] = Hash::make($validated['password']);
-            User::create($validated);
+            $newUser = User::create($validated);
             
-            return redirect('/login')->with([
-                'type' => 'success', 'message' => 'Register Successed, Please Login.',
+            Auth::login($newUser);
+    
+            return redirect('/dashboard')->with([
+                'type' => 'success',
+                'message' => 'You are logged in.'
             ]);
         }
 

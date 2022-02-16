@@ -35,7 +35,7 @@ class LoginController extends Controller
     public function destroy() {
         Auth::logout();
 
-        return redirect('/')->with([
+        return redirect('/login')->with([
             'type' => 'success', 'message' => 'You are now logout.',
         ]);
     }

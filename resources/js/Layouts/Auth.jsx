@@ -9,9 +9,9 @@ export default function Auth({children, title}) {
     return (
         <main className="main-content  mt-0">
             <Head title={ title } />
-            <Toaster position='top-center' duration='4000'/>
 
             <section>            
+                <Toaster position='top-center' duration='4000'/>
                 {children}                   
             </section>
         </main>

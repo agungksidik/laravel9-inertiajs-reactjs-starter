@@ -46,7 +46,7 @@ export default function Login({ errors }) {
                                 </div>
                                 <div className="card-footer text-center pt-0 px-lg-2 px-1">
                                     <p className="mb-4 text-sm mx-auto">
-                                        Don't have an account?
+                                        Don't have an account? {' '}
                                         <Link href={route('register')} className="text-primary text-gradient font-weight-bold">Sign up</Link>
                                     </p>
                                 </div>

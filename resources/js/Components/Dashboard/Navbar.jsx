@@ -16,25 +16,26 @@ export default function Navbar(props) {
                 </nav>
                 <div className="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div className="ms-md-auto pe-md-3 d-flex align-items-center">
-                        <div className="input-group">
-                            <span className="input-group-text text-body"><i className="fas fa-search" aria-hidden="true" /></span>
-                            <input type="text" className="form-control" placeholder="Type here..." />
-                        </div>
+                        
                     </div>
-                    <ul className="navbar-nav  justify-content-end">                        
+                    <ul className="navbar-nav justify-content-end">                        
                         { auth.user != null 
-                            ?   <li className="nav-item dropdown pe-2 d-flex align-items-center">
-                                    <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        {auth.user.name}
-                                    </a>
-                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a className="dropdown-item" href="#">Profile</a></li>
-                                        <li><a className="dropdown-item" href="#">Setting</a></li>
-                                        <li><hr className="dropdown-divider" /></li>
-                                        <li><Link className="dropdown-item" as='button' method='post' href={route('logout')}>Logout</Link></li>
-                                    </ul>
-                                </li> 
-                            : <li className="nav-item d-flex align-items-center">
+                            ?
+                            <li className="nav-item dropdown pe-3 d-flex align-items-center">
+                                <a className="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    
+                                    <img src="/img/team-2.jpg" className="avatar avatar-sm  me-3 " />
+                                    {auth.user.name}
+                                </a>
+                                <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <li><a className="dropdown-item" href="#">Profile</a></li>
+                                    <li><a className="dropdown-item" href="#">Setting</a></li>
+                                    <li><hr className="dropdown-divider" /></li>
+                                    <li><Link className="dropdown-item" as='button' method='post' href={route('logout')}>Logout</Link></li>
+                                </ul>
+                            </li>
+                            : 
+                            <li className="nav-item d-flex align-items-center">
                                 <Link href={route('login')} className="nav-link text-white font-weight-bold px-0">
                                     <i className="fa fa-user me-sm-1" />
                                     <span className="d-sm-inline d-none">Sign In</span>
