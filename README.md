@@ -30,16 +30,19 @@
 <br />
 <div align="center">
   <a href="https://github.com/agungksidik/laravel9-inertia-react-starter">
-    <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react-logo.jpg" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/agungksidik/public-assets/master/logo/laravel-logo.png" alt="Logo" width="90" height="90">
   </a>
   <a href="https://github.com/agungksidik/laravel9-inertia-react-starter">
-    <img src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/laravel_logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/agungksidik/public-assets/master/logo/reactjs-logo.png" alt="Logo" width="90" height="90">
+  </a>
+  <a href="https://github.com/agungksidik/laravel9-inertia-react-starter">
+    <img src="https://raw.githubusercontent.com/agungksidik/public-assets/master/logo/inertiajs-logo.png" alt="Logo" width="90" height="90">
   </a>
 
 <h3 align="center">Laravel Inertia ReactJs Starter</h3>
 
   <p align="center">
-    project_description
+    This is a starter code to start the project, which already includes multiple layout admin templates with login for authentication
     <br />
     <a href="https://github.com/agungksidik/laravel9-inertia-react-starter"><strong>Explore the docs »</strong></a>
     <br />
@@ -98,6 +101,7 @@
 * [Bootstrap](https://getbootstrap.com)
 * [Inertia](https://inertiajs.com/)
 * [Argon Dashboard 2](https://www.creative-tim.com/product/argon-dashboard)
+* [Laravel Socialite](https://github.com/laravel/socialite)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -192,6 +196,8 @@ install Composer & NodeJs and update to latest version
     - [x] Sign in
     - [x] Register 
     - [x] Google Sign in 
+- [ ] Profile
+- [ ] User Management
 - [ ] Roles and Permissions
 
 See the [open issues](https://github.com/agungksidik/laravel9-inertia-react-starter/issues) for a full list of proposed features (and known issues).
