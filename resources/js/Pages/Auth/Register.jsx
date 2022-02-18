@@ -58,7 +58,7 @@ export default function Register({ errors }) {
                                 or
                                 </p>
                             </div>
-                            </div>
+                        </div>
                             <div className="card-body">
                             <form role="form" onSubmit={submitHandler}>
                                 <div className="mb-3">

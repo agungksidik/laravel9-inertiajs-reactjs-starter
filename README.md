@@ -67,6 +67,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#roadmap">Roadmap</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -75,7 +76,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -105,7 +105,22 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- ROADMAP -->
+## Roadmap
 
+- [x] Integrations Argon Dashboard HTML template to ReactJs
+- [x] Multiple layout (Guest, Base, Auth)
+- [x] Authentication
+    - [x] Sign in
+    - [x] Register 
+    - [x] Google Sign in 
+- [ ] Profile
+- [ ] User Management
+- [ ] Roles and Permissions
+
+See the [open issues](https://github.com/agungksidik/laravel9-inertia-react-starter/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -184,27 +199,6 @@ install Composer & NodeJs and update to latest version
    
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Integrations Argon Dashboard HTML template to ReactJs
-- [x] Multiple layout (Guest, Base, Auth)
-- [x] Authentication
-    - [x] Sign in
-    - [x] Register 
-    - [x] Google Sign in 
-- [ ] Profile
-- [ ] User Management
-- [ ] Roles and Permissions
-
-See the [open issues](https://github.com/agungksidik/laravel9-inertia-react-starter/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
