@@ -24,7 +24,6 @@ class RegisterController extends Controller
         ]);
 
         if($validated) {
-            $validated['password'] = Hash::make($validated['password']);
             $newUser = User::create($validated);
             
             Auth::login($newUser);

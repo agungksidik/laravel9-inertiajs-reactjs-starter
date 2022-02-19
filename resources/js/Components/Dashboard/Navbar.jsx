@@ -9,7 +9,7 @@ export default function Navbar(props) {
             <div className="container-fluid py-1 px-3">
                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-                        <li className="breadcrumb-item text-sm"><a className="opacity-5 text-white" href="javascript:;">Pages</a></li>
+                        <li className="breadcrumb-item text-sm"><a className="opacity-5 text-white" href="#">Pages</a></li>
                         <li className="breadcrumb-item text-sm text-white active" aria-current="page">Dashboard</li>
                     </ol>
                 <h6 className="font-weight-bolder text-white mb-0">Dashboard</h6>
@@ -23,7 +23,6 @@ export default function Navbar(props) {
                             ?
                             <li className="nav-item dropdown pe-3 d-flex align-items-center">
                                 <a className="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    
                                     <img src="/img/team-2.jpg" className="avatar avatar-sm  me-3 " />
                                     {auth.user.name}
                                 </a>

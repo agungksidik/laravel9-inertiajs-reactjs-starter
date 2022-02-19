@@ -98,7 +98,7 @@
 
 * [Laravel](https://laravel.com)
 * [React.js](https://reactjs.org/)
-* [Bootstrap](https://getbootstrap.com)
+* [Bootstrap 5](https://getbootstrap.com)
 * [Inertia](https://inertiajs.com/)
 * [Argon Dashboard 2](https://www.creative-tim.com/product/argon-dashboard)
 * [Laravel Socialite](https://github.com/laravel/socialite)
@@ -108,7 +108,7 @@
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Integrations Argon Dashboard HTML template to ReactJs
+- [x] Integrations Argon Dashboard 2 HTML template to ReactJs
 - [x] Multiple layout (Guest, Base, Auth)
 - [x] Authentication
     - [x] Sign in
