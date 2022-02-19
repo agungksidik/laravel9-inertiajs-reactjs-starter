@@ -96,7 +96,7 @@
 
 ### Built With
 
-* [Laravel](https://laravel.com)
+* [Laravel 9](https://laravel.com)
 * [React.js](https://reactjs.org/)
 * [Bootstrap 5](https://getbootstrap.com)
 * [Inertia](https://inertiajs.com/)
@@ -114,8 +114,8 @@
     - [x] Sign in
     - [x] Register 
     - [x] Google Sign in 
+- [x] User Management
 - [ ] Profile
-- [ ] User Management
 - [ ] Roles and Permissions
 
 See the [open issues](https://github.com/agungksidik/laravel9-inertia-react-starter/issues) for a full list of proposed features (and known issues).
