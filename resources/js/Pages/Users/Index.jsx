@@ -1,21 +1,31 @@
 import { Link } from '@inertiajs/inertia-react';
-import React from 'react'
+import React, { useState } from 'react'
 import Dialog from '../../Components/Dashboard/Dialog';
 import Base from '../../Layouts/Base'
 import useDialog from '../../Hooks/useDialog';
 import CreateUser from '../../Components/Dashboard/Users/CreateUser';
+import EditUser from '../../Components/Dashboard/Users/EditUser';
 
 export default function Index(props) {
-    
+
     const {data: users, links, meta} = props.users; 
+    const [state, setState] = useState([])
     const [addDialogHandler, addCloseTrigger,addTrigger] = useDialog()
-    const [addDialogHandler, addCloseTrigger,addTrigger] = useDialog()
+    const [UpdateDialogHandler, UpdateCloseTrigger,UpdateTrigger] = useDialog()
+    const openUpdateDialog = (user) => {
+        setState(user);
+        UpdateDialogHandler()
+    }
 
     return (
         <>
             <div className="container-fluid py-4">
                 <Dialog trigger={addTrigger} title="Create New User"> 
                     <CreateUser close={addCloseTrigger}/>
+                </Dialog>
+
+                <Dialog trigger={UpdateTrigger} title={`Update User: ${state.name}`}> 
+                    <EditUser model={state} close={UpdateCloseTrigger}/>
                 </Dialog>
 
                 <div className="row pb-4">
@@ -73,10 +83,7 @@ export default function Index(props) {
                                                 </td>
                                                 <td className="align-middle text-center" width="10%">
                                                 <div>
-                                                    <button type="button" className="btn btn-slack btn-icon-only">
-                                                        <span className="btn-inner--icon"><i className="fas fa-eye"></i></span>
-                                                    </button>
-                                                    <button type="button" className="btn btn-vimeo btn-icon-only mx-2">
+                                                    <button type="button" onClick={() => openUpdateDialog(user)} className="btn btn-vimeo btn-icon-only mx-2">
                                                         <span className="btn-inner--icon"><i className="fas fa-pencil-alt"></i></span>
                                                     </button>
                                                     <button type="button" className="btn btn-youtube btn-icon-only">
@@ -107,4 +114,4 @@ export default function Index(props) {
     )
 }
 
-Index.layout = (page) => <Base key={page} children={page} title={"Users Data"}/>
+Index.layout = (page) => <Base key={page} children={page} title={"Manage Users"}/>
