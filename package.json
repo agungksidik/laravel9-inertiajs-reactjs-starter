@@ -26,6 +26,7 @@
     "dependencies": {
         "@inertiajs/inertia": "^0.11.0",
         "@inertiajs/inertia-react": "^0.8.0",
+        "@inertiajs/progress": "^0.2.7",
         "@popperjs/core": "^2.11.2",
         "bootstrap": "^5.1.3",
         "react": "^17.0.2",
