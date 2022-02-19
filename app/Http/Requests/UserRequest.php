@@ -25,8 +25,8 @@ class UserRequest extends FormRequest
     public function rules()
     {
         return [
-            'email' => ['required', 'unique:users,username,' . optional($this->user)->id,],
-            'username' => ['required', 'alpha_num', 'unique:users,email,' . optional($this->user)->id,],
+            'email' => ['required', 'unique:users,email,' . optional($this->user)->id,],
+            'username' => ['required', 'unique:users,username,' . optional($this->user)->id,],
             'name' => ['required'],
             'password' => (empty($this->user->password)) ? ['required', Password::defaults()] : '',
             'address' => ['required'],

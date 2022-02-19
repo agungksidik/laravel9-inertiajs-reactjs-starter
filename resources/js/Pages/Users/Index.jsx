@@ -5,6 +5,7 @@ import Base from '../../Layouts/Base'
 import useDialog from '../../Hooks/useDialog';
 import CreateUser from '../../Components/Dashboard/Users/CreateUser';
 import EditUser from '../../Components/Dashboard/Users/EditUser';
+import { Inertia } from '@inertiajs/inertia';
 
 export default function Index(props) {
 
@@ -12,9 +13,21 @@ export default function Index(props) {
     const [state, setState] = useState([])
     const [addDialogHandler, addCloseTrigger,addTrigger] = useDialog()
     const [UpdateDialogHandler, UpdateCloseTrigger,UpdateTrigger] = useDialog()
+    const [destroyDialogHandler, destroyCloseTrigger,destroyTrigger] = useDialog()
     const openUpdateDialog = (user) => {
         setState(user);
         UpdateDialogHandler()
+    }
+
+    const openDestroyDialog = (user) => {
+        setState(user);
+        destroyDialogHandler()        
+    };
+
+    const destroyUser = () => {
+        Inertia.delete(
+            route('users.destroy', state.id), 
+            { onSuccess: () => destroyCloseTrigger() });
     }
 
     return (
@@ -26,6 +39,14 @@ export default function Index(props) {
 
                 <Dialog trigger={UpdateTrigger} title={`Update User: ${state.name}`}> 
                     <EditUser model={state} close={UpdateCloseTrigger}/>
+                </Dialog>
+
+                <Dialog trigger={destroyTrigger} title={`Delete User: ${state.name}`}>
+                    <p>Are you sure to delete this user ?</p>
+                    <div className="modal-footer">
+                        <button type="button" className="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" onClick={destroyUser} className="btn bg-gradient-danger">Delete</button>
+                    </div>
                 </Dialog>
 
                 <div className="row pb-4">
@@ -86,7 +107,7 @@ export default function Index(props) {
                                                     <button type="button" onClick={() => openUpdateDialog(user)} className="btn btn-vimeo btn-icon-only mx-2">
                                                         <span className="btn-inner--icon"><i className="fas fa-pencil-alt"></i></span>
                                                     </button>
-                                                    <button type="button" className="btn btn-youtube btn-icon-only">
+                                                    <button type="button" onClick={() => openDestroyDialog(user)} className="btn btn-youtube btn-icon-only">
                                                         <span className="btn-inner--icon"><i className="fas fa-trash"></i></span>
                                                     </button>
                                                 </div>

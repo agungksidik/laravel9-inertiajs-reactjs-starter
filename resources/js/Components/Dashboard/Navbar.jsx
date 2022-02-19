@@ -21,16 +21,10 @@ export default function Navbar({props, pageName}) {
                     <ul className="navbar-nav justify-content-end">                        
                         { auth.user != null 
                             ?
-                            <li className="nav-item dropdown pe-3 d-flex align-items-center">
-                                <a className="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li className="nav-item pe-3 d-flex align-items-center">
+                                <ul className="nav-link text-white" href="#" role="button" aria-expanded="false">
                                     <img src="/img/team-2.jpg" className="avatar avatar-sm  me-3 " />
                                     {auth.user.name}
-                                </a>
-                                <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#">Profile</a></li>
-                                    <li><a className="dropdown-item" href="#">Setting</a></li>
-                                    <li><hr className="dropdown-divider" /></li>
-                                    <li><Link className="dropdown-item" as='button' method='post' href={route('logout')}>Logout</Link></li>
                                 </ul>
                             </li>
                             : 
