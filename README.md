@@ -33,10 +33,10 @@
     <img src="https://raw.githubusercontent.com/agungksidik/public-assets/master/logo/laravel-logo.png" alt="Logo" width="90" height="90">
   </a>
   <a href="https://github.com/agungksidik/laravel9-inertia-react-starter">
-    <img src="https://raw.githubusercontent.com/agungksidik/public-assets/master/logo/reactjs-logo.png" alt="Logo" width="90" height="90">
+    <img src="https://raw.githubusercontent.com/agungksidik/public-assets/master/logo/inertiajs-logo.png" alt="Logo" width="90" height="90">
   </a>
   <a href="https://github.com/agungksidik/laravel9-inertia-react-starter">
-    <img src="https://raw.githubusercontent.com/agungksidik/public-assets/master/logo/inertiajs-logo.png" alt="Logo" width="90" height="90">
+    <img src="https://raw.githubusercontent.com/agungksidik/public-assets/master/logo/reactjs-logo.png" alt="Logo" width="90" height="90">
   </a>
 
 <h3 align="center">Laravel Inertia ReactJs Starter</h3>
@@ -67,6 +67,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li><a href="#screenshoot">Screenshoot</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -91,6 +92,18 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/agungksidik/laravel9-inertia-react-starter/master/images/screenshoot1.png" />
 </p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Screenshoot
+
+| Login | Register | Landing Page |
+| --- | --- | --- |
+| [![Login](https://raw.githubusercontent.com/agungksidik/public-assets/master/laravel9-inertiajs-reactjs-starter/login_page.png)](#) | [![Register](https://raw.githubusercontent.com/agungksidik/public-assets/master/laravel9-inertiajs-reactjs-starter/register_page.png)](#) | [![Landing Page](https://raw.githubusercontent.com/agungksidik/public-assets/master/laravel9-inertiajs-reactjs-starter/home_page.png)](#) |
+
+| Dashboard | Manage User | Profile Page |
+| --- | --- | --- |
+| [![Dashboard](https://raw.githubusercontent.com/agungksidik/public-assets/master/laravel9-inertiajs-reactjs-starter/dashboard_page.png)](#) | [![Manage User](https://raw.githubusercontent.com/agungksidik/public-assets/master/laravel9-inertiajs-reactjs-starter/manage_user.png)](#) | [![Profile Page](https://raw.githubusercontent.com/agungksidik/public-assets/master/laravel9-inertiajs-reactjs-starter/profile_page.png)](#) |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

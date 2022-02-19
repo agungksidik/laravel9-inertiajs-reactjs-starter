@@ -4,8 +4,11 @@ import toast, { Toaster } from 'react-hot-toast'
 
 export default function Auth({children, title}) {
     const { flash } = usePage().props;
+
+    if(flash) {
+        flash.type && toast[flash.type](flash.message)
+    }
     
-    flash.type && toast[flash.type](flash.message)
     return (
         <main className="main-content  mt-0">
             <Head title={ title } />

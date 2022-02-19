@@ -124,8 +124,8 @@ export default function Index(props) {
                 <nav aria-label="Page navigation example">
                     <ul className="pagination justify-content-center">
                         { meta.links.map((link, k) => (
-                            <li className="page-item">
-                                <Link key={k} disabled={link.url == null ? true : false} as="button" className={`${link.active && 'bg-info'} ${link.url == null && 'btn bg-gradient-secondary text-white'} page-link`} href={link.url || ''} dangerouslySetInnerHTML={{ __html: link.label }}/>
+                            <li key={k} className="page-item">
+                                <Link disabled={link.url == null ? true : false} as="button" className={`${link.active && 'bg-info'} ${link.url == null && 'btn bg-gradient-secondary text-white'} page-link`} href={link.url || ''} dangerouslySetInnerHTML={{ __html: link.label }}/>
                             </li>
                         ))}
                     </ul>

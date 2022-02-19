@@ -10,7 +10,7 @@ export default function Footer() {
                         <div className="copyright text-center text-sm text-muted text-lg-start">
                             Agung © ,
                             made with <i className="fa fa-heart" /> by
-                            <a href="https://www.creative-tim.com" className="font-weight-bold" target="_blank">Creative Tim</a>
+                            <a href="https://www.creative-tim.com" className="font-weight-bold" target="_blank"> Creative Tim </a>
                             for a better web.
                         </div>
                         </div>
