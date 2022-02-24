@@ -29,13 +29,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/agungksidik/laravel9-inertia-react-starter">
+  <a href="https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter">
     <img src="https://raw.githubusercontent.com/agungksidik/public-assets/master/logo/laravel-logo.png" alt="Logo" width="90" height="90">
   </a>
-  <a href="https://github.com/agungksidik/laravel9-inertia-react-starter">
+  <a href="https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter">
     <img src="https://raw.githubusercontent.com/agungksidik/public-assets/master/logo/inertiajs-logo.png" alt="Logo" width="90" height="90">
   </a>
-  <a href="https://github.com/agungksidik/laravel9-inertia-react-starter">
+  <a href="https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter">
     <img src="https://raw.githubusercontent.com/agungksidik/public-assets/master/logo/reactjs-logo.png" alt="Logo" width="90" height="90">
   </a>
 
@@ -44,14 +44,14 @@
   <p align="center">
     This is a starter code to start the project, which already includes multiple layout admin templates with login for authentication
     <br />
-    <a href="https://github.com/agungksidik/laravel9-inertia-react-starter"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/agungksidik/laravel9-inertia-react-starter">View Demo</a>
+    <a href="https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter">View Demo</a>
     ·
-    <a href="https://github.com/agungksidik/laravel9-inertia-react-starter/issues">Report Bug</a>
+    <a href="https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter/issues">Report Bug</a>
     ·
-    <a href="https://github.com/agungksidik/laravel9-inertia-react-starter/issues">Request Feature</a>
+    <a href="https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter/issues">Request Feature</a>
   </p>
 </div>
 
@@ -90,8 +90,19 @@
 ## About The Project
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/agungksidik/laravel9-inertia-react-starter/master/images/screenshoot1.png" />
+  <img src="https://raw.githubusercontent.com/agungksidik/laravel9-inertiajs-reactjs-starter/master/images/screenshoot1.png" />
 </p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Built With
+
+* [Laravel 9](https://laravel.com)
+* [React.js](https://reactjs.org/)
+* [Bootstrap 5](https://getbootstrap.com)
+* [Inertia](https://inertiajs.com/)
+* [Argon Dashboard 2](https://www.creative-tim.com/product/argon-dashboard)
+* [Laravel Socialite](https://github.com/laravel/socialite)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -107,17 +118,6 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
-
-* [Laravel 9](https://laravel.com)
-* [React.js](https://reactjs.org/)
-* [Bootstrap 5](https://getbootstrap.com)
-* [Inertia](https://inertiajs.com/)
-* [Argon Dashboard 2](https://www.creative-tim.com/product/argon-dashboard)
-* [Laravel Socialite](https://github.com/laravel/socialite)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -128,10 +128,11 @@
     - [x] Register 
     - [x] Google Sign in 
 - [x] User Management
-- [ ] Profile
+- [x] Profile
+- [ ] Activity Log
 - [ ] Roles and Permissions
 
-See the [open issues](https://github.com/agungksidik/laravel9-inertia-react-starter/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -142,22 +143,16 @@ Get a local copy (clone the repo)
 
 ### Prerequisites
 
-install Composer & NodeJs and update to latest version
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+install Composer & NodeJs 
 
-* composer
-  ```sh
-  php composer.phar self-update
-  ```
+- [Composer](https://getcomposer.org/doc/00-intro.md)
+- [Node Js](https://nodejs.org/en/download/)
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/agungksidik/laravel9-inertia-react-starter.git
+   git clone https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter.git
    ```
 2. Install dependency Laravel
    ```sh
@@ -245,7 +240,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Agung Sidik Muhamad - [@agungksidik](https://twitter.com/agungksidik) - agungksidik@gmail.com
 
-Project Link: [https://github.com/agungksidik/laravel9-inertia-react-starter](https://github.com/agungksidik/laravel9-inertia-react-starter)
+Project Link: [https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter](https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -260,16 +255,16 @@ Project Link: [https://github.com/agungksidik/laravel9-inertia-react-starter](ht
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/agungksidik/laravel9-inertia-react-starter.svg?style=for-the-badge
-[contributors-url]: https://github.com/agungksidik/laravel9-inertia-react-starter/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/agungksidik/laravel9-inertia-react-starter.svg?style=for-the-badge
-[forks-url]: https://github.com/agungksidik/laravel9-inertia-react-starter/network/members
-[stars-shield]: https://img.shields.io/github/stars/agungksidik/laravel9-inertia-react-starter.svg?style=for-the-badge
-[stars-url]: https://github.com/agungksidik/laravel9-inertia-react-starter/stargazers
-[issues-shield]: https://img.shields.io/github/issues/agungksidik/laravel9-inertia-react-starter.svg?style=for-the-badge
-[issues-url]: https://github.com/agungksidik/laravel9-inertia-react-starter/issues
-[license-shield]: https://img.shields.io/github/license/agungksidik/laravel9-inertia-react-starter.svg?style=for-the-badge
-[license-url]: https://github.com/agungksidik/laravel9-inertia-react-starter/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/agungksidik/laravel9-inertiajs-reactjs-starter.svg?style=for-the-badge
+[contributors-url]: https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/agungksidik/laravel9-inertiajs-reactjs-starter.svg?style=for-the-badge
+[forks-url]: https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter/network/members
+[stars-shield]: https://img.shields.io/github/stars/agungksidik/laravel9-inertiajs-reactjs-starter.svg?style=for-the-badge
+[stars-url]: https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter/stargazers
+[issues-shield]: https://img.shields.io/github/issues/agungksidik/laravel9-inertiajs-reactjs-starter.svg?style=for-the-badge
+[issues-url]: https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter/issues
+[license-shield]: https://img.shields.io/github/license/agungksidik/laravel9-inertiajs-reactjs-starter.svg?style=for-the-badge
+[license-url]: https://github.com/agungksidik/laravel9-inertiajs-reactjs-starter/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/agung-sidik-muhamad-5b427620b/
-[product-screenshot]: https://raw.githubusercontent.com/agungksidik/laravel9-inertia-react-starter/master/images/screenshoot1.png
+[product-screenshot]: https://raw.githubusercontent.com/agungksidik/laravel9-inertiajs-reactjs-starter/master/images/screenshoot1.png
